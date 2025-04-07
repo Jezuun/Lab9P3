@@ -22,6 +22,12 @@
  * 37. The welcome message still shows "help," not "assist."
  * The welcome message is hardcoded and doesn’t update automatically.
  * 
+ * 39. Yes, you need to change the CommandWord type by adding LOOK.
+ * But no, you also need to modify the game logic 
+ * (e.g., in the processCommand method) and the Room class to 
+ * support the LOOK command properly.
+ * 
+ * 40. The message is hardcoded and doesn't update automatically.
  */
 
 public class Game 
